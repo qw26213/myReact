@@ -1,0 +1,230 @@
+/*水质详情*/
+.circle{width: 300px; height: 300px; position: relative;}
+.circle .level_text{width: 200px; color: #00c0ff; height: 100px; position: absolute;top: 50%; left: 50%; margin-top: -50px; margin-left: -100px; font-size: 60px}
+/*首页+全部应用*/
+.wallet{background-image: url(img/wallet.png);} 
+.person{background-image: url(img/person.png);} 
+.iconwh + h3{line-height: 26px; font-size: 12px;color: #333; font-weight: normal;}
+.icon_1{background-image: url(img/icon_1.png);}
+.icon_2{background-image: url(img/icon_2.png);}
+.icon_3{background-image: url(img/icon_3.png);}
+.icon_4{background-image: url(img/icon_4.png);}
+.icon_01{background-image: url(img/icon_01.png);}
+.icon_02{background-image: url(img/icon_02.png);}
+.icon_03{background-image: url(img/icon_03.png);}
+.icon_04{background-image: url(img/icon_04.png);}
+.icon_05{background-image: url(img/icon_05.png);}
+.icon_06{background-image: url(img/icon_06.png);}
+.icon_07{background-image: url(img/icon_07.png);}
+.icon_08{background-image: url(img/icon_08.png);}
+.icon_09{background-image: url(img/icon_09.png);}
+.icon_10{background-image: url(img/icon_10.png);}  
+.icon_11{background-image: url(img/icon_11.png);}  
+.index_icon1{background-image: url(img/index_icon1.png);}
+.index_icon2{background-image: url(img/index_icon2.png);}
+.index_icon3{background-image: url(img/index_icon3.png);}
+.itemdesc h3{line-height: 24px; font-size: 14px }
+.itemdesc p{line-height: 20px; font-size: 12px;}
+.userwh{width: 60px; height: 60px; border-radius: 50%; background-image: url(img/1.png); border:2px #e5e5e5 solid;}
+.nearbyuser{overflow-x:scroll; overflow-y:hidden;}
+.user_pic{width: 50px; height: 50px; border-radius: 50%;background-image: url(img/1.png); border:1px #e5e5e5 solid;}
+.user_pic + h3{font-size: 14px; color: #5acaff; height: 24px; line-height: 24px}
+/*pk页面*/
+.pking{width: 100%; height: 10px; background: url(img/pking.png) repeat-x 0 0; background-size: auto 100%; border-radius: 5px}
+
+.deItem{padding: 5px 15px;}
+.itemImg{width: 100px; height: 90px;}
+.itemdesc{margin-left: 5px;}
+.itemdesc h3{font-size: 14px;font-weight: normal;}
+
+.clock_icon{ background-image: url(img/Meter.png); width: 60px; height: 60px; display: inline-block;}
+.myclocks{height:135px;overflow-x:scroll}
+.myclocks > div{width:100px; text-align: center; padding-top: 10px; padding-bottom: 10px;border: 1px #c0c0c0 solid;}
+.myclocks > div.active{background-color: #d4f5ff; border: 2px #5bbff7 solid; border-radius: 6px}
+
+.icon_clock{background-image: url(img/clock.png);}
+.icon_add{background-image: url(img/add.png);}
+.arrow-down{background-image: url(img/arrow-down.png); width: 20px!important; height: 44px;}
+.payBtn{width: 100px; height: 40px; line-height: 36px; background-color: #ff7600; text-align: center; color: #fff;  border-radius: 40px; margin-top: 27.5px}
+/*停水公告*/
+.annoBox{ border: 3px #e5e5e5 solid;  border-radius: 10px; background-color: #fff}
+.annoBox .bbdc{border-bottom: 2px #e5e5e5 dashed;  line-height: 30px;font-size: 12px;}
+.annoBox .bbdc:first-child{color: #ff7600}
+.annoBox .bbdc:last-child{border-bottom: none; }
+.bjindu .top{background: url(img/dian.png) repeat-y 14px top;}
+.bjindu .bop{background: url(img/dian.png) repeat-y 14px top;}
+.bjindu:first-child .top{background: none!important;}
+.bjindu:last-child .bop{background: none!important;}
+.bjindu img{position: absolute; width: 24px; height: 24px; left: 50%; margin-left: -12px; top: 50%; margin-top: -12px}
+/*应用管理*/
+.app_add_icon{width: 24px; height: 24px; position: absolute; background-image: url(img/app_add_icon.png); background-size: 12px 12px!important;right: 0; top: 0;background-repeat: no-repeat; background-position: center center}
+.app_dele_icon{width: 24px; height: 24px; position: absolute; background-image: url(img/app_minus_icon.png); background-size: 12px 12px!important;right: 0; top: 0;background-repeat: no-repeat; background-position: center center}
+/*支付方式*/
+.bankcard{background-image: url(img/bankcard.png);}
+.zhifubao{background-image: url(img/zhifubao.png);}
+.weixin{background-image: url(img/weixin.png);}
+/*缴费历史*/
+.feerecord tr th{height: 36px; line-height: 36px; font-size: 14px;font-weight: normal;}
+.feerecord tr td{height:45px; line-height:45px; font-size: 14px; text-align: center;}
+.fee_success{width: 50px; height: 22px; background-image: url(img/fee_success.png);}
+.fee_failed{width: 50px; height: 22px; background-image: url(img/fee_failed.png);}
+/*设备+版本管理*/
+.version_icon{background-image: url(img/version.png); width: 100px; height: 100px;}
+.version_icon01{background-image: url(img/version.png); width: 40px; height: 40px;}
+.version_icon02{background-image: url(img/version.png); width: 140px; height: 140px;}
+.phone_icon{background-image: url(img/phone.png); width: 68px; height: 162px}
+.link_icon{background-image: url(img/link.gif); width: 60px; height: 15px; margin-right: 20px; margin-right: 20px}
+.waiting_icon{background-image: url(img/waiting.png); width: 100px; height: 100px; -webkit-animation: rotate1 1s linear infinite; animation: rotate1 1s linear infinite; }1
+@-webkit-keyframes rotate1 {
+	0%, 100% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes rotate1 {
+	0%, 100% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+/*行业热线*/
+.rewh{display: block; width: 18px; height: 18px;}
+.re01{background-image: url(img/re01.png);}
+.re02{background-image: url(img/re02.png);}
+.re03{background-image: url(img/re03.png);}
+.re04{background-image: url(img/re04.png);}
+
+.sendTime{ background-color: #e5e5e5;font-size: 12px; line-height: 20px; padding-left: 10px}
+.quality th{ font-weight: normal; font-size: 16px; color: #000}
+.quality td{ font-weight: normal; font-size: 14px; color: #666}
+.quality th,.quality td{height: 60px; border-right:1px #eee solid;border-bottom:1px #eee solid;}
+.quality td:last-child{ border-right:none;}
+.quality th,.quality tr:nth-child(even){background-color: #f7f7f7}
+
+
+.control1{background-image: url(img/trash.png); width: 50px; height: 50px;background-size: 30px 30px!important;}
+.control2{background-image: url(img/note.png); width: 50px; height: 50px;background-size: 30px 30px!important;}
+.control3{width: 60px; height: 30px; line-height: 30px; background-color: #fff; border:#66ccdf 1px solid; color: #66ccdf; text-align: center; border-radius: 5px;}
+.control4{width: 60px; height: 30px; line-height: 30px; background-color: #66ccdf; border:#66ccdf 1px solid; color: #fff; text-align: center; border-radius: 5px;}
+.icon_tou{background: url(img/tou.png) no-repeat left center; background-size: 6px 24px; padding-left: 10px}
+.payed_icon{width: 90px; height: 90px; position: absolute; bottom: 15px; right: 10px;background-image: url(img/yijiaoqing.png);}
+
+.arr-up{background-image: url(img/arr-up.png)!important; width:15px; height: 8px; margin-left: 5px}
+.arr-dd{background-color: transparent; width:15px; height: 8px; margin-left: 5px}
+.arr-down{background-image: url(img/arr-down.png); width:15px; height: 8px; margin-left: 5px;}
+/*水表*/
+.boundWater_span{width:72px;}
+.boundWater_h6{line-height: 35px;}
+.pr10{padding-right: 10px;}
+.boundWater_bound{background-color: #999999;color:#eeeeee;}
+.border_no{border:none;}
+.head_img{width:32px;height: 32px;}
+.head_name{line-height: 32px;font-size: 18px;}
+.pl20{padding-left:20px;}
+.waterMeter_site{font-size: 12px;line-height: 13px;margin-top: 16px;background: url(img/ion_03.png) no-repeat;background-size:12px 10px ;}
+.waterMeter_num{color: #ffab00;font-size: 18px;}
+.waterMeter_line{width:100%;height:225px;}
+
+.w20{width: 20px!important}
+
+.bgc2{background-color: rgba(0,0,0,0.6); color: #fff; line-height: 30px;left: 0;bottom: 0;width: 100%;}
+.zan_icon_01{background-image: url(img/zan_icon_01.png);}
+.zan_icon_02{background-image: url(img/zan_icon_02.png);}
+.zan_icon_03{background-image: url(img/zan_icon_03.png);}
+.zan_icon_04{background-image: url(img/zan_icon_04.png);}
+.icon_small{width: 14px!important; height: 14px!important;margin-right: 6px;}
+.bc06{color: #fff;}
+.meterImg{background-image: url(img/meterImg.png);}
+.tit_bg{background-image: url(img/tit_bg.png); height: 16px; color: #00aeff; font-size: 12px;line-height: 16px; background-color: #fff}
+.clock{background-image: url(img/clock.png);}
+.anno{background-image: url(img/anno.png);width: 85px; height: 20px;}
+.anno_mark{width: 45px; height: 20px; border: #ff5c5c 1px solid; color: #ff5c5c;line-height: 20px;font-size: 14px; text-align: center;box-sizing:border-box;}
+.ion01{background-image: url(img/ion01.png);}
+.ion02{background-image: url(img/ion02.png);}
+.ion03{background-image: url(img/ion03.png);}
+.ion04{background-image: url(img/ion04.png);}
+.ion05{background-image: url(img/ion05.png);}
+.xing{width: 12px; height: 12px; background-image: url(img/xing.png); margin-left: 6px}
+.xin{width: 20px; height: 20px; background-image: url(img/xin.png); margin-left: 6px}
+.water_status{height: 18px;line-height: 18px; text-align: center;border-radius: 9px;background-color:#e4f6ff;font-size: 12px;color: #00aeff; width: 60px}
+
+.location_img{background-image: url(img/location_img.png); width: 12px; height: 16px; margin-right: 5px;}
+.waterInfo li{width:12px; height: 10px; margin-top: 2px; background-color: #f7f7f7;}
+.waterInfo li.active01{background-color: #9bdcfa!important}
+.waterInfo li.active02{background-color: #f5d665!important}
+.waterInfo li.active03{background-color: #fe6767!important}
+
+.waterInfo_status1{background-image: url(img/waterInfo_status1.gif);}
+.wh130{width: 130px; height: 130px;}
+.wh140{width: 140px; height: 140px;}
+.circle{background-image: url(img/circle.png);}
+/*数字字体*/
+@font-face {font-family: 'dinbold'; src: url('dincond-bold-webfont.woff2') format('woff2'),url('dincond-bold-webfont.woff') format('woff');font-weight: normal;font-style: normal;}
+.font_dinbold{font-family: 'dinbold';}
+.mail_ion{background-image: url(img/mail.png); width: 18px; height: 12px; margin-right: 3px}
+.Volume{width: 16px;height: 16px;background-image: url(img/Volume.png); margin-right: 5px;}
+.chat_img{width: 13px; height: 13px;background-image: url(img/chat.png); margin-right: 3px;}
+
+.waterlang{
+	top:5px;left: 5px;z-index: 2;
+}
+
+@-webkit-keyframes waterlang {
+        0% {background-position: 0 0;}
+        100%{background-position: -4160px 0;}
+ }
+
+/*更改水表部分*/
+.meter_box{overflow: hidden;}
+.swiper-container2{margin: 0 auto;position: relative;overflow: hidden;z-index: 1;width: 100%;}
+.meterImg2{background-image: url(img/dizhi@2x.png);}
+.more{background-image: url(img/gengduo@2x.png);margin-left: 5px;}
+.meterImg3{background-image:url(img/clock.png);margin-left: 3px;}
+.waterlang2{width:130px;height:20px;-webkit-animation: waterlang steps(31) 1.5s infinite;animation: waterlang2 steps(31) 1.5s infinite;background-image: url(img/shuiLang.png);background-repeat: no-repeat;background-size: 3200% 100%;}
+.waterlang3{background: #00aeff;height:140px;width:130px;margin-top: -1px;}
+@-webkit-keyframes waterlang2 {
+    0% {background-position: 0 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes waterlang2 {
+    0% {background-position: 0 0;}
+    100%{background-position: 100% 0;}
+}
+#waterLang{top:5px;left: 5px;}
+.waterlang_bg{background: #e5e5e5;width: 128px;height: 128px;top:6px;left: 6px;border-radius: 50%;}
+
+.nextFoot{ margin-top: 50px;}
+.nextFoot button{ display:block;width:100%; color:#fff;background: #ff7600;line-height: 36px; border-radius: 18px; font-size:16px}
+.nextFoot button:active{background: #e56a00; }
+
+input[type="file"]{position:absolute; width: 100%; height: 100%; display: block; left: 0;top: 0; opacity: 0;}
+.link{color:#000;text-decoration: underline}
+
+#myChart{width: 100%; background: #fff;height: 100%;width: 100%;display: block;}
+#chartId{width: 100%; background: #fff;height: 100%;width: 100%;display: block;}
+/*网点导航*/
+#Mapcontainer{width: 100%; height: 100%;box-sizing:border-box;}
+.amap-toolbar amap-touch-toolbar
+.header-warp{position: absolute; top: 0; left: 0; width: 100%;z-index: 555}
+.amap-copyright { display: none !important; }
+.amap-marker .marker-route { position: absolute; width: 22px; height: 22px; color: #fff; background: #ed6a6a; text-align: center; line-height: 22px; border-radius: 50%; font-size: 12px; }
+.markerInfo{position: fixed;bottom: 0; width: 100%; left: 0;height: 72px; background: #fff;border-top:#eee solid 1px;}
+.markerInfo > p{line-height: 24px; margin-left: 10px;text-align: center;}
+
+
+/*优惠劵*/
+.bg_coupon { background-image: url(img/coupon_voucher.png); }
+@media(max-width:350px) {
+	.textSize1 { font-size: 12px }
+	.textSize2 { font-size: 12px; -webkit-transform: scale(0.84, 0.84); white-space: nowrap; }
+}
+@media(min-width:360px) {
+	.textSize1 { font-size: 13px }
+	.textSize2 { font-size: 12px }
+}
+.bgtransgray { background-color: rgba(0, 0, 0, 0.5); }
+.white{color: #fff}
+.ulev36{font-size: 36px}
+.h25{height: 25px}
+.bottom0{bottom: 0!important}
+
+.add_water{background-image: url(img/add_water.png); width: 50px; height: 50px;}
+
+
+
